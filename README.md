@@ -12,7 +12,7 @@
 
 I performed **exploratory data analysis**, **data preparation**, and **binary classification** using **Python** to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. **Repeated stratified k-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **logistic regression** model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
 
-![](https://github.com/maja-kucharczyk/maja-kucharczyk.github.io/blob/main/assets/img/algorithm_comparison.png)
+![](https://maja-kucharczyk.github.io/assets/img/algorithm_comparison.png)
 
 ---
 
