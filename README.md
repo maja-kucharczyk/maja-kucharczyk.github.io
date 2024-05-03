@@ -1,6 +1,6 @@
 <h1 align="center"> Portfolio </h1>
 
-[Python and SQL](#python-and-sql) [Publications](#publications) [Outreach](#outreach)
+[Python and SQL](#python-and-sql)|[Publications](#publications)|[Outreach](#outreach)
 
 ## Python and SQL
 
