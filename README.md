@@ -1,8 +1,8 @@
 <h1 align="center"> Portfolio </h1>
 
-[Python & SQL Projects](#python-projects) | [Publications](#publications) | [Outreach](#outreach)
+[Python and SQL](#python-and-sql) [Publications](#publications) [Outreach](#outreach)
 
-## Python & SQL Projects
+## Python and SQL
 
 ### [Predicting Popular Recipes](https://github.com/maja-kucharczyk/predicting-popular-recipes)
 
