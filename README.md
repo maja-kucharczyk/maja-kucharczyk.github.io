@@ -156,6 +156,24 @@ I had an opportunity to be a guest on Esri Canada’s Geographical Thinking podc
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/ca/podcast/geoai-for-damage-assessment-in-the-wake-of-a-disaster/id1540357358?i=1000604553886&theme=light"></iframe>
 
+<div class="video-container"><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/ca/podcast/geoai-for-damage-assessment-in-the-wake-of-a-disaster/id1540357358?i=1000604553886&theme=light"></iframe></div>
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
 ---
 
 ### [Automated mapping of hurricane roof damage: An end-to-end Esri ArcGIS Pro workflow using deep learning and drone imagery](https://storymaps.arcgis.com/stories/61c60c6e67b04f8fade16adfaad74075)
