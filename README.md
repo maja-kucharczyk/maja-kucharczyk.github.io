@@ -1,4 +1,4 @@
-# Portfolio
+# **Portfolio**
 
 [Python and SQL](#python-and-sql)|[Publications](#publications)|[Outreach](#outreach)
 
