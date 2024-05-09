@@ -193,16 +193,24 @@ Falahatkar, H., Ogunleye, S., & **Kucharczyk, M.** (2023). Esri Canada Centres o
 I participated in the 2023 Esri Canada Centres of Excellence App Challenge, which is an annual one-week competition that engages teams of students at each of the Esri Canada GIS Centers of Excellence in the creation of innovative GIS applications using Esri technology and open data to address a specific theme. The theme of 2023 was "Conservation and Protected Areas or Urban Ecology". My team and I built Canada’s Conservation Tracker: an app that provides information about protected and other conserved areas in Canada. Overall, Canada’s Conservation Tracker supports the monitoring of Canada’s progress towards its 2025 conservation targets and allows users to investigate trends in conservation with respect to factors such as time, geography, and governance. I created the video below to introduce the app.
 
 <iframe width="500" height="282" src="https://www.youtube.com/embed/aZlWpVRDyDk?si=M1CeC2s6TeMUIdtL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-<style>
-  .video--iframe {
-    width: 80% !important;
-  }
-  @media screen and (min-width: 750px) {
-    .video--iframe {
-      width: 100% !important;
-    }
-  }
-</style>
+
+<div class="video-container"><iframe width="500" height="282" src="https://www.youtube.com/embed/aZlWpVRDyDk?si=M1CeC2s6TeMUIdtL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+
+.video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
 
 ---
 
