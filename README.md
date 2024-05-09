@@ -212,4 +212,4 @@ Following our publication of [Weather constraints on global drone flyability](ht
 
 [Back to top](#top)
 
-Hosted on GitHub Pages – Theme by [orderedlist](https://github.com/orderedlist)
+<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
