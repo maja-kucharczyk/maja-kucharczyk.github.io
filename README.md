@@ -1,4 +1,4 @@
-<h1 align="center"> Portfolio </h1>
+# Portfolio
 
 [Python and SQL](#python-and-sql)|[Publications](#publications)|[Outreach](#outreach)
 
