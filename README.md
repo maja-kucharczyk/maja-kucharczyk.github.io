@@ -156,6 +156,7 @@ I had an opportunity to be a guest on Esri Canada’s Geographical Thinking podc
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/ca/podcast/geoai-for-damage-assessment-in-the-wake-of-a-disaster/id1540357358?i=1000604553886&theme=light"></iframe>
 <br></br>
+
 ---
 
 ### [Automated mapping of hurricane roof damage: An end-to-end Esri ArcGIS Pro workflow using deep learning and drone imagery](https://storymaps.arcgis.com/stories/61c60c6e67b04f8fade16adfaad74075)
@@ -176,6 +177,7 @@ I participated in the 2023 Esri Canada Centres of Excellence App Challenge, whic
 
 <iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="282" style="width:100%;max-width:660px;overflow:hidden;border-radius:0px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://www.youtube.com/embed/aZlWpVRDyDk?si=M1CeC2s6TeMUIdtL"></iframe>
 <br></br>
+
 ---
 
 ### [Apply to become a Student Assistant at the 2023 Esri User Conference in San Diego](https://ecce.esri.ca/ucalgary-blog/2023/01/16/become-a-student-assistant-2023-esri-uc/)
