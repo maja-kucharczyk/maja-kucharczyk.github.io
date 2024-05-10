@@ -1,6 +1,6 @@
 # **Portfolio**
 
-[Python](#python) | [SQL](#sql) | [Geospatial](#geospatial) | [Publications](#publications) | [Outreach](#outreach) |
+[Python](#python) * [SQL](#sql) * [Geospatial](#geospatial) * [Publications](#publications) * [Outreach](#outreach)
 
 ## Python
 
