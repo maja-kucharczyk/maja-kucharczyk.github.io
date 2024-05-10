@@ -1,6 +1,6 @@
 # **Portfolio**
 
-[Python](#python)|[SQL](#sql)|[Remote Sensing](#remote-sensing)|[Publications](#publications)|[Outreach](#outreach)
+[Python](#python)|[SQL](#sql)|[Geospatial](#geospatial)|[Publications](#publications)|[Outreach](#outreach)
 
 ## Python
 
@@ -42,7 +42,7 @@ The [International Debt Statistics](https://datacatalog.worldbank.org/search/dat
 
 ---
 
-## Remote Sensing
+## Geospatial
 
 ### [Quantifying Post-Flood Topographic Changes](https://maja-kucharczyk.github.io/pdf/erosion_deposition.pdf)
 
