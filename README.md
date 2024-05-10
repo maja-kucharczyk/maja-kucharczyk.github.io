@@ -1,8 +1,9 @@
 # **Portfolio**
 
-[Programming](#programming)|[Geospatial](#geospatial)|[Publications](#publications)|[Outreach](#outreach)
+[Python](#python)|[SQL](#sql)|[Geospatial](#geospatial)
+[Publications](#publications)|[Outreach](#outreach)
 
-## Programming
+## Python
 
 ### [Predicting Popular Recipes](https://github.com/maja-kucharczyk/predicting-popular-recipes)
 
@@ -27,6 +28,8 @@ I performed **exploratory data analysis**, **data preparation**, and **regressio
 ![](https://maja-kucharczyk.github.io/assets/img/algorithm_comparison.png)
 
 ---
+
+## SQL
 
 ### [Exploring the International Debt BigQuery Data](https://github.com/maja-kucharczyk/exploring-international-debt)
 
