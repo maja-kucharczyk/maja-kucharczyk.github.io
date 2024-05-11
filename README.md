@@ -8,7 +8,7 @@
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-popular-recipes)
 
-<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
+<kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
 
 I performed **exploratory data analysis**, **data preparation**, and **binary classification** using **Python** to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. **Repeated stratified k-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **logistic regression** model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
 
@@ -20,7 +20,7 @@ I performed **exploratory data analysis**, **data preparation**, and **binary cl
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-car-prices)
 
-<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
+<kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
 
 I performed **exploratory data analysis**, **data preparation**, and **regression** using **Python** to predict used car prices. **K-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **random forest** model achieved a root-mean-squared error of 1210 GBP, R<sup>2</sup> of 0.96, and predicted 78% of prices within 10% of their actual values.
 
@@ -34,7 +34,7 @@ I performed **exploratory data analysis**, **data preparation**, and **regressio
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/exploring-international-debt)
 
-<kbd>SQL</kbd> <kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>pandas-gbq</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd>
+<kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>pandas-gbq</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd>
 
 The [International Debt Statistics](https://datacatalog.worldbank.org/search/dataset/0038015) dataset by The World Bank has reported the external debt of low- and middle-income countries and regions each year since 1970. Google hosts the International Debt Statistics as a public **BigQuery** dataset called [International Debt](https://console.cloud.google.com/marketplace/product/the-world-bank/international-debt). After inspecting the international_debt table in the BigQuery dataset, **I found that all 3.28 million rows had null year values and 94% of the rows had null debt values**. In total, there were 138,152 rows with non-null and non-zero debt values, of which 2,467 were unique. The unique rows were grouped and joined with other tables in the dataset to determine the highest-debt countries, total debt owed by all countries, and debt per income group, region, and debt indicator. Due to the null debt and year values in the international_debt table, the BigQuery dataset currently appears limited in its use for exploring aggregate debt and temporal aspects. If the BigQuery dataset is fixed, the **SQL** queries can be rerun to derive accurate estimates.
 
@@ -44,14 +44,23 @@ The [International Debt Statistics](https://datacatalog.worldbank.org/search/dat
 
 ## Geospatial
 
+---
+
+### [Measuring Vegetation Heights](https://maja-kucharczyk.github.io/pdf/msc_thesis.pdf)
+
+<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd> <kbd>Esri ArcGIS</kbd>
+
+Multiview stereo images acquired by small aerial drones in combination with **structure from motion (SfM) photogrammetry** have created new capacity to develop high-resolution geospatial data, but vertical error is typically higher in vegetated areas because the ground surface is not visible in stereo. Miniaturized **light detection and ranging (lidar)** systems for drones have potential to overcome this limitation, but their vertical accuracy in different vegetation types is not well documented. For my MSc thesis, I evaluated the accuracy of drone-lidar and drone-SfM in six vegetation types: grasses (short and tall), shrubs (short and tall), and trees (deciduous and coniferous). Data processing included **point cloud classification** and **interpolation** to produce **digital terrain models** and **digital surface models**, followed by raster differencing to calculate **digital canopy height models**. Accuracy was assessed using ground reference data (i.e., real-time kinematic GNSS, total station, tape measure) and statistical evaluation including **hypothesis testing**. Results indicated drone-lidar was more accurate in estimating ground elevation in all vegetation types, while vegetation height accuracy was higher for some types with drone-SfM. Drone-lidar consistently sampled sub-canopy tree structure, while drone-SfM only captured tree tops.
+
+![](https://maja-kucharczyk.github.io/assets/img/msc_sfm.JPG)
+
+---
+
 ### [Quantifying Post-Flood Topographic Changes](https://maja-kucharczyk.github.io/pdf/erosion_deposition.pdf)
 
-[![Open Report](https://img.shields.io/badge/PDF-Open_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](https://maja-kucharczyk.github.io/pdf/erosion_deposition.pdf)
+<kbd>rapidlasso LAStools</kbd> <kbd>Esri ArcGIS</kbd>
 
-<kbd>LAStools</kbd> <kbd>Esri ArcGIS</kbd>
-
-Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and persistent rainfall exceeding 450 mm that resulted in flash floods, landslides, and debris flows. The flood was a 1000-year precipitation event in which eight
-people died and infrastructure damage exceeded two billion dollars. Using **light detection and ranging** (lidar) data acquired over Boulder before and after the flood, I created digital terrain models and performed **topographic change detection**. I then quantified **erosional and depositional volumes** along a stream channel and extracted **aspects** of possible debris flows.
+Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and persistent rainfall exceeding 450 mm that resulted in flash floods, landslides, and debris flows. The flood was a 1000-year precipitation event in which eight people died and infrastructure damage exceeded two billion dollars. Using **light detection and ranging (lidar)** data acquired over Boulder before and after the flood, I created **digital terrain models** and performed **topographic change detection**. I then quantified **erosional and depositional volumes** along a stream channel and extracted **aspects of possible debris flows**.
 
 ![](https://maja-kucharczyk.github.io/assets/img/erosion_deposition.JPG)
 
@@ -59,11 +68,9 @@ people died and infrastructure damage exceeded two billion dollars. Using **ligh
 
 ### [Detecting Storm-Damaged Roofs](https://maja-kucharczyk.github.io/pdf/glcm.pdf)
 
-[![Open Report](https://img.shields.io/badge/PDF-Open_Report-blue?logo=adobe-acrobat-reader&logoColor=white)](https://maja-kucharczyk.github.io/pdf/glcm.pdf)
-
 <kbd>R</kbd> <kbd>RStudio</kbd> <kbd>Matlab</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcGIS</kbd>
 
-On September 7, 2017, Category 5 Hurricane Irma struck the Caribbean island of Saint Martin (France) / Sint Maarten (the Netherlands). The primary objective of this project was to train a classification model to predict the presence or absence of roof damage using a single band of a **drone-derived RGB orthomosaic**. I first conducted **variogram analysis** of sample damaged buildings to assess the spatial autocorrelation of pixel values. The single band image was then used to extract **grey level co-occurrence (GLCM) texture** measures from buildings with intact roofs and buildings with damaged/missing roofs. Since buildings with damaged/missing roofs appeared to have greater contrast and disorder of pixel values than those with intact roofs, I hypothesized that the GLCM textures relating to contrast and orderliness would be strong predictors of roof damage. Several univariate logistic regression and random forest models were trained and evaluated. The **random forest** model that used entropy (an orderliness-related GLCM texture) as the predictor variable resulted in the highest accuracy: 97.5%.
+On September 7, 2017, Category 5 Hurricane Irma struck Sint Maarten (the Caribbean). Using a single band of a **drone-derived RGB orthomosaic** acquired after the hurricane, I **trained classification models to predict the presence or absence of roof damage**. First, I conducted **variogram analysis** of sample damaged buildings to assess the spatial autocorrelation of pixel values. The single band image was then used to extract **grey level co-occurrence (GLCM) texture measures** from buildings with intact roofs and buildings with damaged/missing roofs. Since buildings with damaged/missing roofs appeared to have greater contrast and disorder of pixel values than those with intact roofs, I hypothesized that the GLCM textures relating to contrast and orderliness would be strong predictors of roof damage. Several univariate **logistic regression** and **random forest** models were trained and evaluated. The random forest model that used entropy (an orderliness-related GLCM texture) as the predictor resulted in the highest accuracy: 97.5%.
 
 ![](https://maja-kucharczyk.github.io/assets/img/glcm.JPG)
 
