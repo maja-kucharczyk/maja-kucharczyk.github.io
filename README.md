@@ -8,7 +8,7 @@
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-popular-recipes)
 
-<kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
+<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
 
 I performed **exploratory data analysis**, **data preparation**, and **binary classification** using **Python** to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. **Repeated stratified k-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **logistic regression** model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
 
@@ -20,7 +20,7 @@ I performed **exploratory data analysis**, **data preparation**, and **binary cl
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-car-prices)
 
-<kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
+<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
 
 I performed **exploratory data analysis**, **data preparation**, and **regression** using **Python** to predict used car prices. **K-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **random forest** model achieved a root-mean-squared error of 1210 GBP, R<sup>2</sup> of 0.96, and predicted 78% of prices within 10% of their actual values.
 
@@ -34,7 +34,7 @@ I performed **exploratory data analysis**, **data preparation**, and **regressio
 
 [![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/exploring-international-debt)
 
-<kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>pandas-gbq</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd>
+<kbd>SQL</kbd> <kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>pandas-gbq</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd>
 
 The [International Debt Statistics](https://datacatalog.worldbank.org/search/dataset/0038015) dataset by The World Bank has reported the external debt of low- and middle-income countries and regions each year since 1970. Google hosts the International Debt Statistics as a public **BigQuery** dataset called [International Debt](https://console.cloud.google.com/marketplace/product/the-world-bank/international-debt). After inspecting the international_debt table in the BigQuery dataset, **I found that all 3.28 million rows had null year values and 94% of the rows had null debt values**. In total, there were 138,152 rows with non-null and non-zero debt values, of which 2,467 were unique. The unique rows were grouped and joined with other tables in the dataset to determine the highest-debt countries, total debt owed by all countries, and debt per income group, region, and debt indicator. Due to the null debt and year values in the international_debt table, the BigQuery dataset currently appears limited in its use for exploring aggregate debt and temporal aspects. If the BigQuery dataset is fixed, the **SQL** queries can be rerun to derive accurate estimates.
 
@@ -43,8 +43,6 @@ The [International Debt Statistics](https://datacatalog.worldbank.org/search/dat
 ---
 
 ## Geospatial
-
----
 
 ### [Measuring Vegetation Heights](https://maja-kucharczyk.github.io/pdf/msc_thesis.pdf)
 
