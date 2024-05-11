@@ -10,7 +10,7 @@
 
 <kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
 
-I performed **exploratory data analysis**, **data preparation**, and **binary classification** using **Python** to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. **Repeated stratified k-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **logistic regression** model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
+I performed **exploratory data analysis**, **data cleaning**, **data transformation**, and **binary classification** using **Python** to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. **Repeated stratified k-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **logistic regression** model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
 
 ![](https://maja-kucharczyk.github.io/assets/img/coefficients.png)
 
@@ -22,7 +22,7 @@ I performed **exploratory data analysis**, **data preparation**, and **binary cl
 
 <kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
 
-I performed **exploratory data analysis**, **data preparation**, and **regression** using **Python** to predict used car prices. **K-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **random forest** model achieved a root-mean-squared error of 1210 GBP, R<sup>2</sup> of 0.96, and predicted 78% of prices within 10% of their actual values.
+I performed **exploratory data analysis**, **data cleaning**, **data transformation**, and **regression** using **Python** to predict used car prices. **K-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **random forest** model achieved a root-mean-squared error of 1210 GBP, R<sup>2</sup> of 0.96, and predicted 78% of prices within 10% of their actual values.
 
 ![](https://maja-kucharczyk.github.io/assets/img/algorithm_comparison.png)
 
