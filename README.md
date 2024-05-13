@@ -182,6 +182,28 @@ Hugenholtz, C.H., Brown, O., Walker, J., Barchyn, T.E., Nesbit, P.R., **Kucharcz
 
 ## Outreach
 
+### [Disaster-mapping drones often neglect deadliest, costliest events and hardest-hit areas](https://theconversation.com/disaster-mapping-drones-often-neglect-deadliest-costliest-events-and-hardest-hit-areas-165412)
+
+**Kucharczyk, M.**, & Hugenholtz, C. H. (2021). The Conversation.
+
+Following our publication of [Remote sensing of natural hazard-related disasters with small drones](https://doi.org/10.1016/j.rse.2021.112577), we published a journalistic article in The Conversation to share our work with the public.
+
+![](https://maja-kucharczyk.github.io/assets/img/drone_fire.jpg)
+[Brad Strobel/USFWS](https://www.rawpixel.com/image/11072839/photo-image-cloud-plant-fire) [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+---
+
+### [The weather’s effects on commercial drones may hinder their widespread use](https://theconversation.com/the-weathers-effects-on-commercial-drones-may-hinder-their-widespread-use-162581)
+
+**Kucharczyk, M.**, Hugenholtz, C. H., Gao, M., Nesbit, P. R., Barchyn, T. E., & Fox, T. A. (2021). The Conversation.
+
+Following our publication of [Weather constraints on global drone flyability](https://doi.org/10.1038/s41598-021-91325-w), we published a journalistic article in The Conversation to share our work with the public.
+
+![](https://maja-kucharczyk.github.io/assets/img/drone_winter.jpg)
+[Wikimedia Commons](https://www.rawpixel.com/image/3337446/free-photo-image-aircraft-airplane-animal) [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+---
+
 ### [Season 3 | Episode 12: GeoAI for damage assessment in the wake of a disaster](https://resources.esri.ca/geographical-thinking-podcast/season-3-episode-12-geoai-for-damage-assessment-in-the-wake-of-a-disaster)
 
 **Podcast Guest.** (2023). Esri Canada Geographical Thinking Podcast.
@@ -219,28 +241,6 @@ I participated in the 2023 Esri Canada Centres of Excellence App Challenge, whic
 I wrote a blog post detailing my experience at the 2022 Esri User Conference, where I received an Esri Young Scholar Award, presented my deep learning research, and served as a student assistant.
 
 ![](https://maja-kucharczyk.github.io/assets/img/esri.jpeg)
-
----
-
-### [Disaster-mapping drones often neglect deadliest, costliest events and hardest-hit areas](https://theconversation.com/disaster-mapping-drones-often-neglect-deadliest-costliest-events-and-hardest-hit-areas-165412)
-
-**Kucharczyk, M.**, & Hugenholtz, C. H. (2021). The Conversation.
-
-Following our publication of [Remote sensing of natural hazard-related disasters with small drones](https://doi.org/10.1016/j.rse.2021.112577), we published a journalistic article in The Conversation to share our work with the public.
-
-![](https://maja-kucharczyk.github.io/assets/img/drone_fire.jpg)
-[Brad Strobel/USFWS](https://www.rawpixel.com/image/11072839/photo-image-cloud-plant-fire) [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
-
----
-
-### [The weather’s effects on commercial drones may hinder their widespread use](https://theconversation.com/the-weathers-effects-on-commercial-drones-may-hinder-their-widespread-use-162581)
-
-**Kucharczyk, M.**, Hugenholtz, C. H., Gao, M., Nesbit, P. R., Barchyn, T. E., & Fox, T. A. (2021). The Conversation.
-
-Following our publication of [Weather constraints on global drone flyability](https://doi.org/10.1038/s41598-021-91325-w), we published a journalistic article in The Conversation to share our work with the public.
-
-![](https://maja-kucharczyk.github.io/assets/img/drone_winter.jpg)
-[Wikimedia Commons](https://www.rawpixel.com/image/3337446/free-photo-image-aircraft-airplane-animal) [(CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ---
 
