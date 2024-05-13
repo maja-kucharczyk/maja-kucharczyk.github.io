@@ -66,7 +66,7 @@ Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and 
 
 ### [Detecting Storm-Damaged Roofs](https://maja-kucharczyk.github.io/pdf/glcm.pdf)
 
-<kbd>R</kbd> <kbd>RStudio</kbd> <kbd>Matlab</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>R</kbd> <kbd>RStudio</kbd> <kbd>MATLAB</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcGIS</kbd>
 
 On September 7, 2017, Category 5 Hurricane Irma struck Sint Maarten (the Caribbean). Using a single band of a **drone-derived RGB orthomosaic** acquired after the hurricane, I **trained classification models to predict the presence or absence of roof damage**. First, I conducted **variogram analysis** of sample damaged buildings to assess the spatial autocorrelation of pixel values. The single band image was then used to extract **grey level co-occurrence (GLCM) texture measures** from buildings with intact roofs and buildings with damaged/missing roofs. Since buildings with damaged/missing roofs appeared to have greater contrast and disorder of pixel values than those with intact roofs, I hypothesized that the GLCM textures relating to contrast and orderliness would be strong predictors of roof damage. Several univariate **logistic regression** and **random forest** models were trained and evaluated. The random forest model that used entropy (an orderliness-related GLCM texture) as the predictor resulted in the highest accuracy: 97.5%.
 
@@ -246,4 +246,4 @@ Following our publication of [Weather constraints on global drone flyability](ht
 
 [Back to top](#top)
 
-<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+<small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
