@@ -1,78 +1,6 @@
 # **Portfolio**
 
-[<small>Python</small>](#python) | [<small>SQL</small>](#sql) | [<small>Geospatial</small>](#geospatial) | [<small>Publications</small>](#publications) | [<small>Outreach</small>](#outreach)
-
-## Python
-
-### [Predicting Popular Recipes](https://github.com/maja-kucharczyk/predicting-popular-recipes)
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-popular-recipes)
-
-<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
-
-I performed **exploratory data analysis**, **data cleaning**, **data transformation**, and **binary classification** using **Python** to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. **Repeated stratified k-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **logistic regression** model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
-
-![](https://maja-kucharczyk.github.io/assets/img/coefficients.png)
-
----
-
-### [Predicting Car Prices](https://github.com/maja-kucharczyk/predicting-car-prices)
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-car-prices)
-
-<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
-
-I performed **exploratory data analysis**, **data cleaning**, **data transformation**, and **regression** using **Python** to predict used car prices. **K-fold cross-validation** and **grid search** were used for model selection and hyperparameter tuning. The **random forest** model achieved a root-mean-squared error of 1210 GBP, R<sup>2</sup> of 0.96, and predicted 78% of prices within 10% of their actual values.
-
-![](https://maja-kucharczyk.github.io/assets/img/algorithm_comparison.png)
-
----
-
-## SQL
-
-### [Exploring the International Debt BigQuery Data](https://github.com/maja-kucharczyk/exploring-international-debt)
-
-[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/exploring-international-debt)
-
-<kbd>SQL</kbd> <kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>pandas-gbq</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd>
-
-The [International Debt Statistics](https://datacatalog.worldbank.org/search/dataset/0038015) dataset by The World Bank has reported the external debt of low- and middle-income countries and regions each year since 1970. Google hosts the International Debt Statistics as a public **BigQuery** dataset called [International Debt](https://console.cloud.google.com/marketplace/product/the-world-bank/international-debt). After inspecting the international_debt table in the BigQuery dataset, **I found that all 3.28 million rows had null year values and 94% of the rows had null debt values**. In total, there were 138,152 rows with non-null and non-zero debt values, of which 2,467 were unique. The unique rows were grouped and joined with other tables in the dataset to determine the highest-debt countries, total debt owed by all countries, and debt per income group, region, and debt indicator. Due to the null debt and year values in the international_debt table, the BigQuery dataset currently appears limited in its use for exploring aggregate debt and temporal aspects. If the BigQuery dataset is fixed, the **SQL** queries can be rerun to derive accurate estimates.
-
-![](https://maja-kucharczyk.github.io/assets/img/region_income_group_debt.png)
-
----
-
-## Geospatial
-
-### [Measuring Vegetation Heights](https://maja-kucharczyk.github.io/pdf/msc_thesis.pdf)
-
-<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd> <kbd>Esri ArcGIS</kbd>
-
-Multiview stereo images acquired by small aerial drones in combination with **structure-from-motion (SfM) photogrammetry** have created new capacity to develop high-resolution geospatial data, but vertical error is typically higher in vegetated areas because the ground surface is not visible in stereo. Miniaturized **light detection and ranging (lidar)** systems for drones have potential to overcome this limitation, but their vertical accuracy in different vegetation types is not well documented. For my MSc thesis, I evaluated the accuracy of drone-lidar and drone-SfM in six vegetation types: grasses (short and tall), shrubs (short and tall), and trees (deciduous and coniferous). Data processing included **point cloud classification** and **interpolation** to produce **digital terrain models** and **digital surface models**, followed by raster differencing to calculate **digital canopy height models**. Accuracy was assessed using ground reference data (i.e., real-time kinematic GNSS, total station, tape measure) and statistical evaluation including **hypothesis testing**. Results indicated drone-lidar was more accurate in estimating ground elevation in all vegetation types, while vegetation height accuracy was higher for some types with drone-SfM. Drone-lidar consistently sampled sub-canopy tree structure, while drone-SfM only captured tree tops.
-
-![](https://maja-kucharczyk.github.io/assets/img/msc_sfm.JPG)
-
----
-
-### [Quantifying Post-Flood Topographic Changes](https://maja-kucharczyk.github.io/pdf/erosion_deposition.pdf)
-
-<kbd>rapidlasso LAStools</kbd> <kbd>Esri ArcGIS</kbd>
-
-Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and persistent rainfall exceeding 450 mm that resulted in flash floods, landslides, and debris flows. The flood was a 1000-year precipitation event in which eight people died and infrastructure damage exceeded two billion dollars. Using **light detection and ranging (lidar)** data acquired over Boulder before and after the flood, I created **digital terrain models** and performed **topographic change detection**. I then quantified **erosional and depositional volumes** along a stream channel and extracted **aspects of possible debris flows**.
-
-![](https://maja-kucharczyk.github.io/assets/img/erosion_deposition.JPG)
-
----
-
-### [Detecting Storm-Damaged Roofs](https://maja-kucharczyk.github.io/pdf/glcm.pdf)
-
-<kbd>R</kbd> <kbd>RStudio</kbd> <kbd>MATLAB</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcGIS</kbd>
-
-On September 7, 2017, Category 5 Hurricane Irma struck Sint Maarten (the Caribbean). Using a single band of a **drone-derived RGB orthomosaic** acquired after the hurricane, I **trained classification models to predict the presence or absence of roof damage**. First, I conducted **variogram analysis** of sample damaged buildings to assess the spatial autocorrelation of pixel values. The single band image was then used to extract **grey level co-occurrence matrix (GLCM) texture measures** from buildings with intact roofs and buildings with damaged/missing roofs. Since buildings with damaged/missing roofs appeared to have greater contrast and disorder of pixel values than those with intact roofs, I hypothesized that the GLCM textures relating to contrast and orderliness would be strong predictors of roof damage. Several univariate **logistic regression** and **random forest** models were trained and evaluated. The random forest model that used entropy (an orderliness-related GLCM texture) as the predictor resulted in the highest accuracy: 97.5%.
-
-![](https://maja-kucharczyk.github.io/assets/img/glcm.JPG)
-
----
+[<small>Publications</small>](#publications) | [<small>Outreach</small>](#outreach) | [<small>Geospatial</small>](#geospatial) | [<small>Python</small>](#python) | [<small>SQL</small>](#sql)
 
 ## Publications
 
@@ -82,7 +10,7 @@ On September 7, 2017, Category 5 Hurricane Irma struck Sint Maarten (the Caribbe
 
 <kbd>Web of Science</kbd> <kbd>Scopus</kbd> <kbd>Mendeley</kbd> <kbd>Esri ArcGIS</kbd>
 
-**Cited 100+ times**, this is a comprehensive review of drone-based remote sensing for supporting disaster management. We performed a systematic literature search using the **Preferred Reporting Items for Systematic Reviews and Meta-Analyses** methodology, resulting in 635 relevant articles from which we derived trends and critical research needs relating to geography, disaster management application, drone hardware, and drone remote sensing data type and analysis method. Based on the research gaps we identified, we recommended that future studies focus on: (i) earthquakes, floods, and cyclones and other windstorms due to higher loss of life and economic impacts; (ii) larger and urban study areas in low, lower-middle, and upper-middle income countries and territories to support vulnerable populations; (iii) under-demonstrated (and especially response-related) disaster management activities, which generally require observations of built features from urban environments; and (iv) data standards for integrating drone-based remote sensing with international disaster management methodologies.
+This study is a comprehensive review of drone-based remote sensing for supporting disaster management. We performed a systematic literature search using the Preferred Reporting Items for Systematic Reviews and Meta-Analyses methodology, resulting in 635 relevant articles from which we derived trends and critical research needs relating to geography, disaster management application, drone hardware, and drone remote sensing data type and analysis method. Based on the research gaps we identified, we recommended that future studies focus on: (i) earthquakes, floods, and cyclones and other windstorms due to higher loss of life and economic impacts; (ii) larger and urban study areas in low, lower-middle, and upper-middle income countries and territories to support vulnerable populations; (iii) under-demonstrated (and especially response-related) disaster management activities, which generally require observations of built features from urban environments; and (iv) data standards for integrating drone-based remote sensing with international disaster management methodologies.
 
 ![](https://maja-kucharczyk.github.io/assets/img/rse.jpg)
 [Kucharczyk & Hugenholtz (2021)](https://doi.org/10.1016/j.rse.2021.112577) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -95,7 +23,7 @@ Gao, M., Hugenholtz, C. H., Fox, T. A., **Kucharczyk, M.**, Barchyn, T. E., & Ne
 
 <kbd>Python</kbd>
 
-**Cited 50+ times**, this study globally mapped the proportion of time various drones can fly safely (termed “flyability”). Flyability was quantified by comparing historical wind speed, temperature, and precipitation data to manufacturer-reported thresholds of common commercial and weather-resistant drones with a **Python**-based computer simulation. Within this global dataset, we examined the 100 most populated cities where some on-demand drone services and applications such as delivery and emergency services may be applied commonly. Results indicated that global flyability is highest in warm and dry continental regions and lowest over oceans and at high latitudes. Median global flyability for common drones is low: 5.7 h/day or 2.0 h/day if restricted to daylight hours. Weather-resistant drones have higher flyability (20.4 and 12.3 h/day, respectively). An inverse analysis for major population centres showed the largest flyability gains for common drones can be achieved by increasing maximum wind speed and precipitation thresholds from 10 to 15 m/s and 0–1 mm/h, respectively.
+We globally mapped the proportion of time various drones can fly safely (termed “flyability”). Flyability was quantified by comparing historical wind speed, temperature, and precipitation data to manufacturer-reported thresholds of common commercial and weather-resistant drones with a Python-based computer simulation. Within this global dataset, we examined the 100 most populated cities where some on-demand drone services and applications such as delivery and emergency services may be applied commonly. Results indicated that global flyability is highest in warm and dry continental regions and lowest over oceans and at high latitudes. Median global flyability for common drones is low: 5.7 h/day or 2.0 h/day if restricted to daylight hours. Weather-resistant drones have higher flyability (20.4 and 12.3 h/day, respectively). An inverse analysis for major population centres showed the largest flyability gains for common drones can be achieved by increasing maximum wind speed and precipitation thresholds from 10 to 15 m/s and 0–1 mm/h, respectively.
 
 ![](https://maja-kucharczyk.github.io/assets/img/sr.JPG)
 [Gao et al. (2021)](https://doi.org/10.1038/s41598-021-91325-w) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -108,7 +36,7 @@ Gao, M., Hugenholtz, C. H., Fox, T. A., **Kucharczyk, M.**, Barchyn, T. E., & Ne
 
 <kbd>GRASS GIS</kbd> <kbd>Trimble eCognition</kbd> <kbd>ENVI FX</kbd> <kbd>Esri ArcGIS</kbd>
 
-**Cited 50+ times**, this study described the theoretical foundations of **geographic object-based image analysis (GEOBIA)** and provided a comprehensive overview of the methodological workflow. Building on this foundation, we then reviewed recent research on the convergence of GEOBIA with deep **convolutional neural networks**, which we suggested is a new form of GEOBIA. Overall, this study described the past, present, and anticipated future of GEOBIA in a novice-accessible format, while providing innovation and depth to experienced practitioners.
+Here, we described the theoretical foundations of geographic object-based image analysis (GEOBIA) and provided a comprehensive overview of the methodological workflow. Building on this foundation, we then reviewed recent research on the convergence of GEOBIA with deep convolutional neural networks, which we suggested is a new form of GEOBIA. Overall, this study described the past, present, and anticipated future of GEOBIA in a novice-accessible format, while providing innovation and depth to experienced practitioners.
 
 ![](https://maja-kucharczyk.github.io/assets/img/rs.png)
 [Kucharczyk et al. (2020)](https://doi.org/10.3390/rs12122012) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -121,7 +49,7 @@ Gao, M., Hugenholtz, C. H., Fox, T. A., **Kucharczyk, M.**, Barchyn, T. E., & Ne
 
 <kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd> <kbd>Esri ArcGIS</kbd> 
 
-This study represents the first drone mapping mission over an urban area approved by Canada's aviation authority. The goal was to assess the quality of the pre-disaster 3D data in the context of geospatial accuracy and building representation. The images were acquired with a **senseFly eBee Plus fixed-wing drone** with real-time kinematic/post-processed kinematic functionality. Image processing with **structure-from-motion photogrammetry** produced digital surface models (DSMs) and 3D models. DSM vertical accuracy was assessed using 47 ground-surveyed checkpoints and **hypothesis testing**, while building representation in the 3D model was evaluated using **CloudCompare** and **Google Earth Pro**. Results indicated that the spatial accuracies achieved with this drone would allow for sub-meter building collapse detection, but the non-gimbaled camera was insufficient for capturing building facades.
+This study represents the first drone mapping mission over an urban area approved by Canada's aviation authority. The goal was to assess the quality of the pre-disaster 3D data in the context of geospatial accuracy and building representation. The images were acquired with a senseFly eBee Plus fixed-wing drone with real-time kinematic/post-processed kinematic functionality. Image processing with structure-from-motion photogrammetry produced digital surface models (DSMs) and 3D models. DSM vertical accuracy was assessed using 47 ground-surveyed checkpoints and hypothesis testing, while building representation in the 3D model was evaluated using CloudCompare and Google Earth Pro. Results indicated that the spatial accuracies achieved with this drone would allow for sub-meter building collapse detection, but the non-gimbaled camera was insufficient for capturing building facades.
 
 ![](https://maja-kucharczyk.github.io/assets/img/nhess.png)
 [Kucharczyk & Hugenholtz (2019)](https://doi.org/10.5194/nhess-19-2039-2019) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -134,7 +62,7 @@ This study represents the first drone mapping mission over an urban area approve
 
 <kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>Esri ArcGIS</kbd>
 
-We examined the horizontal and vertical accuracy of **light detection and ranging (lidar)** data acquired from a drone at a field site with six vegetation types: coniferous trees, deciduous trees, short grass, tall grass, short shrubs, and tall shrubs. Accuracy was evaluated using 20 horizontal and 445 vertical checkpoints surveyed with **real-time kinematic GNSS** and a **total station**, followed by **precise point positioning** GNSS processing, **Hough Transform**, and **hypothesis testing**. Results showed that horizontal accuracy and vegetated vertical accuracy at the 95% confidence level were 0.05 and 0.24 m, respectively. Median vertical errors significantly differed among 10 of 15 vegetation type pairs, highlighting the need to account for variations of vegetation structure. According to the 2015 American Society for Photogrammetry and Remote Sensing standards, the reported errors fulfilled the requirements for mapping at the 2 and 8 cm horizontal and vertical class levels, respectively.
+We evaluated the horizontal and vertical accuracy of light detection and ranging (lidar) data acquired from a drone at a field site with six vegetation types: coniferous trees, deciduous trees, short grass, tall grass, short shrubs, and tall shrubs. Accuracy was evaluated using 20 horizontal and 445 vertical checkpoints surveyed with real-time kinematic GNSS and a total station, followed by precise point positioning GNSS processing, Hough Transform, and hypothesis testing. Results showed that horizontal accuracy and vegetated vertical accuracy at the 95% confidence level were 0.05 and 0.24 m, respectively. Median vertical errors significantly differed among 10 of 15 vegetation type pairs, highlighting the need to account for variations of vegetation structure. According to the 2015 American Society for Photogrammetry and Remote Sensing standards, the reported errors fulfilled the requirements for mapping at the 2 and 8 cm horizontal and vertical class levels, respectively.
 
 ![](https://maja-kucharczyk.github.io/assets/img/juvs2.jpeg)
 [Kucharczyk et al. (2018)](https://doi.org/10.1139/juvs-2017-0030) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -147,7 +75,7 @@ Nesbit, P.R., Durkin, P.R., Hugenholtz, C.H., Hubbard, S.M., & **Kucharczyk, M.*
 
 <kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd>
 
-**Cited 50+ times**, this study examined the use of drone-based photogrammetry (structure-from-motion) for geologic mapping. We used **structure-from-motion** to develop a 3D digital outcrop model (DOM) of an Upper Cretaceous channel-belt sequence in Dinosaur Provincial Park (southeastern Alberta, Canada). Using the 3D DOM, we delineated the lower contact of the channel-belt sequence, created digital sedimentary logs, and estimated facies with similar conviction to field-based estimations (±4.9%). Overall, we found that measurements and observations derived from the 3D DOM were commensurate with conventional ground-based mapping techniques, but they had the added advantage of lateral continuity, which aided interpretation of stratigraphic surfaces and facies.
+This study examined the use of drone-based photogrammetry (structure-from-motion) for geologic mapping. We used structure-from-motion to develop a 3D digital outcrop model (DOM) of an Upper Cretaceous channel-belt sequence in Dinosaur Provincial Park (southeastern Alberta, Canada). Using the 3D DOM, we delineated the lower contact of the channel-belt sequence, created digital sedimentary logs, and estimated facies with similar conviction to field-based estimations (±4.9%). Overall, we found that measurements and observations derived from the 3D DOM were commensurate with conventional ground-based mapping techniques, but they had the added advantage of lateral continuity, which aided interpretation of stratigraphic surfaces and facies.
 
 ![](https://maja-kucharczyk.github.io/assets/img/geosphere.jpeg)
 [Nesbit et al. (2018)](https://doi.org/10.1130/GES01688.1) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -160,7 +88,7 @@ Nesbit, P. R., Barchyn, T. E., Hugenholtz, C. H., Cripps, S., & **Kucharczyk, M.
 
 <kbd>Transport Canada CADORS</kbd>
 
-To gain insight into the types of incidents that were occurring with small drones in Canada, we analyzed data from **Transport Canada’s Civil Aviation Daily Occurrence Reporting System (CADORS)**. Collectively, the CADORS data indicated that the overwhelming majority of drone incidents reported in Canada were airspace violations. The number of sightings dramatically increased after 2013, suggesting the problem of airspace infractions was real and increasing in prevalence. These results can guide future risk mitigation measures, hardware and software solutions, and educational campaigns to increase airspace safety.
+To gain insight into the types of incidents that were occurring with small drones in Canada, we analyzed data from Transport Canada’s Civil Aviation Daily Occurrence Reporting System (CADORS). Collectively, the CADORS data indicated that the overwhelming majority of drone incidents reported in Canada were airspace violations. The number of sightings dramatically increased after 2013, suggesting the problem of airspace infractions was real and increasing in prevalence. These results can guide future risk mitigation measures, hardware and software solutions, and educational campaigns to increase airspace safety.
 
 ![](https://maja-kucharczyk.github.io/assets/img/juvs.jpeg)
 [Nesbit et al. (2017)](http://doi.org/10.1139/juvs-2016-0033) [(CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -173,7 +101,7 @@ Hugenholtz, C.H., Brown, O., Walker, J., Barchyn, T.E., Nesbit, P.R., **Kucharcz
 
 <kbd>Trimble R6 GNSS</kbd> <kbd>SenseFly eMotion</kbd> <kbd>Postflight Terra 3D</kbd> <kbd>Esri ArcGIS</kbd>
 
-**Cited 100+ times**, this study compared the spatial accuracy of two nearly identical drones with differing onboard GNSS equipment: one with a survey-grade real-time kinematic (RTK) GNSS receiver (RTK drone), and the other with a lower-grade GPS receiver (non-RTK drone). Spatial accuracy was quantified using 17 horizontal and 180 vertical checkpoints surveyed with **RTK GNSS**, followed by **hypothesis testing**. The horizontal and vertical accuracy improved substantially with the RTK drone, effectively reducing the horizontal and vertical root-mean-squared error values by 1 to 2 orders of magnitude compared to the non-RTK drone. Importantly, the horizontal accuracy of the RTK drone data processed via direct georeferencing was equivalent to the horizontal accuracy of the non-RTK drone data processed with ground control points (GCPs), but the vertical error of the RTK drone data was 2 to 3 times greater than the vertical error of the non-RTK drone data with GCPs. Overall, these results suggested that direct georeferencing with the RTK drone can achieve a horizontal accuracy comparable to that obtained with a network of GCPs, but for topographic (vertical) measurements requiring the highest achievable accuracy, researchers and practitioners should use GCPs.
+We compared the spatial accuracy of two nearly identical drones with differing onboard GNSS equipment: one with a survey-grade real-time kinematic (RTK) GNSS receiver (RTK drone), and the other with a lower-grade GPS receiver (non-RTK drone). Spatial accuracy was quantified using 17 horizontal and 180 vertical checkpoints surveyed with RTK GNSS, followed by hypothesis testing. The horizontal and vertical accuracy improved substantially with the RTK drone, effectively reducing the horizontal and vertical root-mean-squared error values by 1 to 2 orders of magnitude compared to the non-RTK drone. Importantly, the horizontal accuracy of the RTK drone data processed via direct georeferencing was equivalent to the horizontal accuracy of the non-RTK drone data processed with ground control points (GCPs), but the vertical error of the RTK drone data was 2 to 3 times greater than the vertical error of the non-RTK drone data with GCPs. Overall, these results suggested that direct georeferencing with the RTK drone can achieve a horizontal accuracy comparable to that obtained with a network of GCPs, but for topographic (vertical) measurements requiring the highest achievable accuracy, researchers and practitioners should use GCPs.
 
 ![](https://maja-kucharczyk.github.io/assets/img/geomatica.JPG)
 [Hugenholtz et al. (2016)](https://doi.org/10.5623/cig2016-102)
@@ -218,7 +146,7 @@ I had an opportunity to be a guest on Esri Canada’s Geographical Thinking podc
 
 **Kucharczyk, M.** (2023). ArcGIS StoryMaps.
 
-Winning three awards from the International Statistical Institute, Esri, and Esri Canada, this story map describes my research on applying deep learning for detecting and delineating post-storm roof damage.
+Winning three awards from the International Statistical Institute, Esri, and Esri Canada, this story map describes my workflow for automated post-storm roof damage mapping using AI (deep learning) and ArcGIS Pro.
 
 ![](https://maja-kucharczyk.github.io/assets/img/roofs.jpg)
 [Mark Yokoyama](https://flickr.com/photos/theactionitems/37201455634/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)
@@ -241,6 +169,78 @@ I participated in the 2023 Esri Canada Centres of Excellence App Challenge, whic
 I wrote a blog post detailing my experience at the 2022 Esri User Conference, where I received an Esri Young Scholar Award, presented my deep learning research, and served as a student assistant.
 
 ![](https://maja-kucharczyk.github.io/assets/img/esri.jpeg)
+
+---
+
+## Geospatial
+
+### [Measuring Vegetation Heights](https://maja-kucharczyk.github.io/pdf/msc_thesis.pdf)
+
+<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd> <kbd>Esri ArcGIS</kbd>
+
+For my MSc thesis, I evaluated the accuracy of drone-based light detection and ranging (drone-lidar) and structure from motion (drone-SfM) in six vegetation types: grasses (short and tall), shrubs (short and tall), and trees (deciduous and coniferous). Data processing included point cloud classification and interpolation to produce digital terrain models and digital surface models, followed by raster differencing to calculate digital canopy height models. Accuracy was assessed using ground reference data (i.e., real-time kinematic GNSS, total station, tape measure) and statistical evaluation (i.e., descriptive statistics, hypothesis testing). Results indicated drone-lidar was more accurate in estimating ground elevation in all vegetation types, while vegetation height accuracy was higher for some types with drone-SfM. Drone-lidar consistently sampled sub-canopy tree structure, while drone-SfM only captured tree tops.
+
+![](https://maja-kucharczyk.github.io/assets/img/msc_sfm.JPG)
+
+---
+
+### [Quantifying Post-Flood Topographic Changes](https://maja-kucharczyk.github.io/pdf/erosion_deposition.pdf)
+
+<kbd>rapidlasso LAStools</kbd> <kbd>Esri ArcGIS</kbd>
+
+Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and persistent rainfall exceeding 450 mm that resulted in flash floods, landslides, and debris flows. The flood was a 1000-year precipitation event in which eight people died and infrastructure damage exceeded two billion dollars. Using light detection and ranging (lidar) data acquired over Boulder before and after the flood, I created digital terrain models and performed topographic change detection. I then quantified erosional and depositional volumes along a stream channel and extracted aspects of possible debris flows.
+
+![](https://maja-kucharczyk.github.io/assets/img/erosion_deposition.JPG)
+
+---
+
+### [Detecting Storm-Damaged Roofs](https://maja-kucharczyk.github.io/pdf/glcm.pdf)
+
+<kbd>R</kbd> <kbd>RStudio</kbd> <kbd>MATLAB</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcGIS</kbd>
+
+On September 7, 2017, Category 5 Hurricane Irma struck Sint Maarten (the Caribbean). Using a single band of a drone-derived RGB orthomosaic acquired after the hurricane, I trained classification models to predict the presence or absence of roof damage. First, I conducted variogram analysis of sample damaged buildings to assess the spatial autocorrelation of pixel values. The single band image was then used to extract grey level co-occurrence matrix (GLCM) texture measures from buildings with intact roofs and buildings with damaged/missing roofs. Since buildings with damaged/missing roofs appeared to have greater contrast and disorder of pixel values than those with intact roofs, I hypothesized that the GLCM textures relating to contrast and orderliness would be strong predictors of roof damage. Several univariate logistic regression and random forest models were trained and evaluated. The random forest model that used entropy (an orderliness-related GLCM texture) as the predictor resulted in the highest accuracy: 97.5%.
+
+![](https://maja-kucharczyk.github.io/assets/img/glcm.JPG)
+
+---
+
+## Python
+
+### [Predicting Popular Recipes](https://github.com/maja-kucharczyk/predicting-popular-recipes)
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-popular-recipes)
+
+<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
+
+I performed exploratory data analysis, data cleaning, data transformation, and binary classification using Python to predict which recipes would lead to high traffic on the website of a company that sells meal planning and ingredient delivery services. Repeated stratified k-fold cross-validation and grid search were used for model selection and hyperparameter tuning. The logistic regression model achieved an accuracy of 81% and revealed which recipe attributes are associated with high and low website traffic.
+
+![](https://maja-kucharczyk.github.io/assets/img/coefficients.png)
+
+---
+
+### [Predicting Car Prices](https://github.com/maja-kucharczyk/predicting-car-prices)
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/predicting-car-prices)
+
+<kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>numpy</kbd> <kbd>scipy</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd> <kbd>scikit-learn</kbd> <kbd>statsmodels</kbd>
+
+I performed exploratory data analysis, data cleaning, data transformation, and regression using Python to predict used car prices. K-fold cross-validation and grid search were used for model selection and hyperparameter tuning. The random forest model achieved a root-mean-squared error of 1210 GBP, R<sup>2</sup> of 0.96, and predicted 78% of prices within 10% of their actual values.
+
+![](https://maja-kucharczyk.github.io/assets/img/algorithm_comparison.png)
+
+---
+
+## SQL
+
+### [Exploring the International Debt BigQuery Data](https://github.com/maja-kucharczyk/exploring-international-debt)
+
+[![View on GitHub](https://img.shields.io/badge/GitHub-View_on_GitHub-blue?logo=GitHub)](https://github.com/maja-kucharczyk/exploring-international-debt)
+
+<kbd>SQL</kbd> <kbd>Python</kbd> <kbd>JupyterLab</kbd> <kbd>pandas</kbd> <kbd>pandas-gbq</kbd> <kbd>matplotlib</kbd> <kbd>seaborn</kbd>
+
+The [International Debt Statistics](https://datacatalog.worldbank.org/search/dataset/0038015) dataset by The World Bank has reported the external debt of low- and middle-income countries and regions each year since 1970. Google hosts the International Debt Statistics as a public BigQuery dataset called [International Debt](https://console.cloud.google.com/marketplace/product/the-world-bank/international-debt). After inspecting the international_debt table in the BigQuery dataset, I found that all 3.28 million rows had null year values and 94% of the rows had null debt values. In total, there were 138,152 rows with non-null and non-zero debt values, of which 2,467 were unique. The unique rows were grouped and joined with other tables in the dataset to determine the highest-debt countries, total debt owed by all countries, and debt per income group, region, and debt indicator. Due to the null debt and year values in the international_debt table, the BigQuery dataset currently appears limited in its use for exploring aggregate debt and temporal aspects. If the BigQuery dataset is fixed, the SQL queries can be rerun to derive accurate estimates.
+
+![](https://maja-kucharczyk.github.io/assets/img/region_income_group_debt.png)
 
 ---
 
