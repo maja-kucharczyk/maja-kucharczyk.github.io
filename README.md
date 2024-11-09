@@ -146,7 +146,7 @@ I had an opportunity to be a guest on Esri Canada’s Geographical Thinking podc
 
 **Kucharczyk, M.** (2023). ArcGIS StoryMaps.
 
-Winning three awards from the International Statistical Institute, Esri, and Esri Canada, this StoryMap describes my workflow for automated post-storm roof damage mapping using aerial imagery, AI, and Esri ArcGIS Pro.
+Winning three awards from the International Statistical Institute, Esri, and Esri Canada, this StoryMap describes my workflow for automated post-storm roof damage mapping using ArcGIS Pro, ArcGIS API for Python, AI, and aerial imagery.
 
 ![](https://maja-kucharczyk.github.io/assets/img/roofs.jpg)
 [Mark Yokoyama](https://flickr.com/photos/theactionitems/37201455634/) [(CC BY-NC-ND 2.0)](https://creativecommons.org/licenses/by-nc-nd/2.0/)
