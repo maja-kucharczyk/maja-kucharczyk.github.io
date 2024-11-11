@@ -47,7 +47,7 @@ Here, we described the theoretical foundations of geographic object-based image 
 
 **Kucharczyk, M.**, & Hugenholtz, C. H. (2019). Natural Hazards and Earth System Sciences, 19(9), 2039–2051.
 
-<kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd> <kbd>Esri ArcGIS</kbd> 
+<kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd> <kbd>Esri ArcGIS</kbd>
 
 This study represents the first drone mapping mission over an urban area approved by Canada’s aviation authority. The goal was to assess the quality of the pre-disaster 3D data in the context of geospatial accuracy and building representation. To plan and acquire regulatory approval for the mission, ArcGIS Online was used to produce a web map showing municipal building footprints and heights, critical infrastructure, helipads, and proposed drone flight areas. The images were acquired with a senseFly eBee Plus fixed-wing drone with real-time kinematic/post-processed kinematic functionality. Image processing with structure-from-motion photogrammetry produced digital surface models (DSMs) and 3D models. DSM vertical accuracy was assessed using 47 ground-surveyed checkpoints and hypothesis testing, while building representation in the 3D model was evaluated using CloudCompare and Google Earth Pro. Results indicated that the spatial accuracies achieved with this drone would allow for sub-meter building collapse detection, but the non-gimbaled camera was insufficient for capturing building facades.
 
