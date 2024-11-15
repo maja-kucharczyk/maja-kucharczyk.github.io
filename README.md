@@ -8,7 +8,7 @@
 
 **Kucharczyk, M.**, & Hugenholtz, C. H. (2021). Remote Sensing of Environment, 264, 1–13.
 
-<kbd>Web of Science</kbd> <kbd>Scopus</kbd> <kbd>Mendeley</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>Web of Science</kbd> <kbd>Scopus</kbd> <kbd>Mendeley</kbd> <kbd>Esri ArcGIS Pro</kbd>
 
 This study is a comprehensive review of drone-based remote sensing for supporting disaster management. We performed a systematic literature search using the Preferred Reporting Items for Systematic Reviews and Meta-Analyses methodology, resulting in 635 relevant articles from which we derived trends and critical research needs relating to geography, disaster management application, drone hardware, and drone remote sensing data type and analysis method. Based on the research gaps we identified, we recommended that future studies focus on: (i) earthquakes, floods, and cyclones and other windstorms due to higher loss of life and economic impacts; (ii) larger and urban study areas in low, lower-middle, and upper-middle income countries and territories to support vulnerable populations; (iii) under-demonstrated (and especially response-related) disaster management activities, which generally require observations of built features from urban environments; and (iv) data standards for integrating drone-based remote sensing with international disaster management methodologies.
 
@@ -34,7 +34,7 @@ We globally mapped the proportion of time various drones can fly safely (termed 
 
 **Kucharczyk, M.**, Hay, G. J., Ghaffarian, S., & Hugenholtz, C. H. (2020). Remote Sensing, 12(12), 1–33.
 
-<kbd>GRASS GIS</kbd> <kbd>Trimble eCognition</kbd> <kbd>ENVI FX</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>GRASS GIS</kbd> <kbd>Trimble eCognition</kbd> <kbd>ENVI FX</kbd> <kbd>Esri ArcGIS Pro</kbd>
 
 Here, we described the theoretical foundations of geographic object-based image analysis (GEOBIA) and provided a comprehensive overview of the methodological workflow. Building on this foundation, we then reviewed recent research on the convergence of GEOBIA with deep convolutional neural networks, which we suggested is a new form of GEOBIA. Overall, this study described the past, present, and anticipated future of GEOBIA in a novice-accessible format, while providing innovation and depth to experienced practitioners.
 
@@ -47,7 +47,7 @@ Here, we described the theoretical foundations of geographic object-based image 
 
 **Kucharczyk, M.**, & Hugenholtz, C. H. (2019). Natural Hazards and Earth System Sciences, 19(9), 2039–2051.
 
-<kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd> <kbd>Esri ArcGIS Online</kbd> <kbd>Esri ArcMap</kbd>
 
 This study represents the first drone mapping mission over an urban area approved by Canada’s aviation authority. The goal was to assess the quality of the pre-disaster 3D data in the context of geospatial accuracy and building representation. To plan and acquire regulatory approval for the mission, ArcGIS Online was used to produce a web map showing municipal building footprints and heights, critical infrastructure, helipads, and proposed drone flight areas. After approval, the images were acquired with a senseFly eBee Plus fixed-wing drone with real-time kinematic/post-processed kinematic functionality. Image processing with structure-from-motion photogrammetry produced digital surface models (DSMs) and 3D models. DSM vertical accuracy was assessed using 47 ground-surveyed checkpoints and hypothesis testing, while building representation in the 3D model was evaluated using CloudCompare and Google Earth Pro. Results indicated that the spatial accuracies achieved with this drone would allow for sub-meter building collapse detection, but the non-gimbaled camera was insufficient for capturing building facades.
 
@@ -60,7 +60,7 @@ This study represents the first drone mapping mission over an urban area approve
 
 **Kucharczyk, M.**, Hugenholtz, C.H., & Zou, X. (2018). Journal of Unmanned Vehicle Systems, 6(4), 212-234.
 
-<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>Esri ArcMap</kbd>
 
 We assessed the horizontal and vertical accuracy of light detection and ranging (lidar) data acquired from a drone at a field site with six vegetation types: coniferous trees, deciduous trees, short grass, tall grass, short shrubs, and tall shrubs. Accuracy was evaluated using 20 horizontal and 445 vertical checkpoints surveyed with real-time kinematic GNSS and a total station, followed by precise point positioning GNSS processing, Hough Transform, and hypothesis testing. Results showed that horizontal accuracy and vegetated vertical accuracy at the 95% confidence level were 0.05 and 0.24 m, respectively. Median vertical errors significantly differed among 10 of 15 vegetation type pairs, highlighting the need to account for variations of vegetation structure. According to the 2015 American Society for Photogrammetry and Remote Sensing standards, the reported errors fulfilled the requirements for mapping at the 2 and 8 cm horizontal and vertical class levels, respectively.
 
@@ -99,7 +99,7 @@ To gain insight into the types of incidents that were occurring with small drone
 
 Hugenholtz, C.H., Brown, O., Walker, J., Barchyn, T.E., Nesbit, P.R., **Kucharczyk, M.**, & Myshak, S. (2016). Geomatica, 70(1), 21-30.
 
-<kbd>Trimble R6 GNSS</kbd> <kbd>SenseFly eMotion</kbd> <kbd>Postflight Terra 3D</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>Trimble R6 GNSS</kbd> <kbd>SenseFly eMotion</kbd> <kbd>Postflight Terra 3D</kbd> <kbd>Esri ArcMap</kbd>
 
 We compared the spatial accuracy of two nearly identical drones with differing onboard GNSS equipment: one with a survey-grade real-time kinematic (RTK) GNSS receiver (RTK drone), and the other with a lower-grade GPS receiver (non-RTK drone). Spatial accuracy was quantified using 17 horizontal and 180 vertical checkpoints surveyed with RTK GNSS, followed by hypothesis testing. The horizontal and vertical accuracy improved substantially with the RTK drone, effectively reducing the horizontal and vertical root-mean-squared error values by 1 to 2 orders of magnitude compared to the non-RTK drone. Importantly, the horizontal accuracy of the RTK drone data processed via direct georeferencing was equivalent to the horizontal accuracy of the non-RTK drone data processed with ground control points (GCPs), but the vertical error of the RTK drone data was 2 to 3 times greater than the vertical error of the non-RTK drone data with GCPs. Overall, these results suggested that direct georeferencing with the RTK drone can achieve a horizontal accuracy comparable to that obtained with a network of GCPs, but for topographic (vertical) measurements requiring the highest achievable accuracy, researchers and practitioners should use GCPs.
 
