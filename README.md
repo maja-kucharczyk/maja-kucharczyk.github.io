@@ -176,7 +176,7 @@ I wrote a blog post detailing my experience at the 2022 Esri User Conference, wh
 
 ### [Measuring Vegetation Heights](https://maja-kucharczyk.github.io/pdf/msc_thesis.pdf)
 
-<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd> <kbd>Esri ArcMap</kbd>
 
 For my MSc thesis, I evaluated the accuracy of drone-based light detection and ranging (drone-lidar) and structure-from-motion photogrammetry (drone-sfm) in six vegetation types: grasses (short and tall), shrubs (short and tall), and trees (deciduous and coniferous). Data processing included point cloud classification and interpolation to produce digital terrain models and digital surface models, followed by raster differencing to calculate digital canopy height models. Accuracy was assessed using ground reference data (i.e., real-time kinematic GNSS, total station, tape measure) and statistical evaluation (i.e., descriptive statistics, hypothesis testing). Results indicated drone-lidar was more accurate in estimating ground elevation in all vegetation types, while vegetation height accuracy was higher for some types with drone-sfm. Drone-lidar consistently sampled sub-canopy tree structure, while drone-sfm only captured tree tops.
 
@@ -186,7 +186,7 @@ For my MSc thesis, I evaluated the accuracy of drone-based light detection and r
 
 ### [Quantifying Post-Flood Topographic Changes](https://maja-kucharczyk.github.io/pdf/erosion_deposition.pdf)
 
-<kbd>rapidlasso LAStools</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>rapidlasso LAStools</kbd> <kbd>Esri ArcMap</kbd>
 
 Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and persistent rainfall exceeding 450 mm that resulted in flash floods, landslides, and debris flows. The flood was a 1000-year precipitation event in which eight people died and infrastructure damage exceeded two billion dollars. Using light detection and ranging (lidar) data acquired over Boulder before and after the flood, I created digital terrain models and performed topographic change detection. I then quantified erosional and depositional volumes along a stream channel and extracted aspects of possible debris flows.
 
@@ -196,7 +196,7 @@ Between September 9 and 16, 2013, Boulder, Colorado (USA) experienced heavy and 
 
 ### [Detecting Storm-Damaged Roofs](https://maja-kucharczyk.github.io/pdf/glcm.pdf)
 
-<kbd>R</kbd> <kbd>RStudio</kbd> <kbd>MATLAB</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcGIS</kbd>
+<kbd>R</kbd> <kbd>RStudio</kbd> <kbd>MATLAB</kbd> <kbd>PCI Geomatica</kbd> <kbd>Esri ArcMap</kbd>
 
 On September 7, 2017, Category 5 Hurricane Irma struck Sint Maarten (the Caribbean). Using a single band of a drone-derived RGB orthomosaic acquired after the hurricane, I trained classification models to predict the presence or absence of roof damage. First, I conducted variogram analysis of sample damaged buildings to assess the spatial autocorrelation of pixel values. The single band image was then used to extract grey level co-occurrence matrix (GLCM) texture measures from buildings with intact roofs and buildings with damaged/missing roofs. Since buildings with damaged/missing roofs appeared to have greater contrast and disorder of pixel values than those with intact roofs, I hypothesized that the GLCM textures relating to contrast and orderliness would be strong predictors of roof damage. Several univariate logistic regression and random forest models were trained and evaluated. The random forest model that used entropy (an orderliness-related GLCM texture) as the predictor resulted in the highest accuracy: 97.5%.
 
