@@ -175,7 +175,8 @@ I wrote a blog post detailing my experience at the 2022 Esri User Conference, wh
 ## Geospatial
 
 ### [Canada's Conservation Tracker](https://esricanada-ce.github.io/appchallenge/2023/teams/ucalgary/Bow_Gees/)
-Falahatkar, H., Ogunleye, S., & **Kucharczyk, M.** (2023). Esri Canada Centres of Excellence App Challenge.
+
+<kbd>Esri ArcGIS Dashboards</kbd>
 
 I participated in the 2023 Esri Canada Centres of Excellence App Challenge, which is an annual one-week competition that engages teams of students at each of the Esri Canada GIS Centers of Excellence in the creation of innovative GIS applications using Esri technology and open data to address a specific theme. The theme of 2023 was "Conservation and Protected Areas or Urban Ecology". My team and I built Canada’s Conservation Tracker: an app that provides information about protected and other conserved areas in Canada. Overall, Canada’s Conservation Tracker supports the monitoring of Canada’s progress towards its 2025 conservation targets and allows users to investigate trends in conservation with respect to factors such as time, geography, and governance.
 
