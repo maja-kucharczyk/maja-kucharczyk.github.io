@@ -134,7 +134,7 @@ Following our publication of [Weather constraints on global drone flyability](ht
 
 ### [Season 3 | Episode 12: GeoAI for damage assessment in the wake of a disaster](https://resources.esri.ca/geographical-thinking-podcast/season-3-episode-12-geoai-for-damage-assessment-in-the-wake-of-a-disaster)
 
-**Podcast Guest.** (2023). Esri Canada Geographical Thinking Podcast.
+**Podcast Guest** (2023). Esri Canada Geographical Thinking Podcast.
 
 I had an opportunity to be a guest on Esri Canada’s Geographical Thinking podcast, where I spoke with Guan Yue about using deep learning for post-disaster damage assessment.
 
@@ -166,9 +166,19 @@ I participated in the 2023 Esri Canada Centres of Excellence App Challenge. My t
 
 **Kucharczyk, M.** (2023). Esri Canada Centres of Excellence Blog.
 
-I wrote a blog post detailing my experience at the 2022 Esri User Conference, where I received an Esri Young Scholar Award, presented my deep learning research, and served as a student assistant.
+I wrote a blog post about Esri's Student Assistant program to encourage others to apply.
 
 ![](https://maja-kucharczyk.github.io/assets/img/esri.jpeg)
+
+---
+
+### [Canada’s Esri Young Scholar found validation and motivation at the UC](https://resources.esri.ca/education-and-research/canada-s-esri-young-scholar-found-validation-and-motivation-at-the-uc)
+
+**Q&A Guest** (2023). Esri Canada Education & Research.
+
+I participated in a Q&A with Krista Amolins of Esri Canada to discuss my experience at the 2022 Esri User Conference, where I received an Esri Young Scholar Award, presented my deep learning research, and served as a student assistant.
+
+![](https://maja-kucharczyk.github.io/assets/img/awards.jpg)
 
 ---
 
