@@ -47,7 +47,7 @@ Here, we described the theoretical foundations of geographic object-based image 
 
 **Kucharczyk, M.**, & Hugenholtz, C. H. (2019). Natural Hazards and Earth System Sciences, 19(9), 2039–2051.
 
-<kbd>Esri ArcGIS Online</kbd> <kbd>Esri ArcMap</kbd> <kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd>
+<kbd>Esri ArcGIS Online</kbd> <kbd>Esri ArcMap</kbd> <kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>CloudCompare</kbd> <kbd>Google Earth Pro</kbd> <kbd>senseFly eBee Plus</kbd>
 
 This study represents the first drone mapping mission over an urban area approved by Canada’s aviation authority. The goal was to assess the quality of the pre-disaster 3D data in the context of geospatial accuracy and building representation. To plan and acquire regulatory approval for the mission, ArcGIS Online was used to produce a web map showing municipal building footprints and heights, critical infrastructure, helipads, and proposed drone flight areas. After approval, the images were acquired with a senseFly eBee Plus fixed-wing drone with real-time kinematic/post-processed kinematic functionality. Image processing with structure-from-motion photogrammetry produced digital surface models (DSMs) and 3D models. DSM vertical accuracy was assessed using 47 ground-surveyed checkpoints and hypothesis testing, while building representation in the 3D model was evaluated using CloudCompare and Google Earth Pro. Results indicated that the spatial accuracies achieved with this drone would allow for sub-meter building collapse detection, but the non-gimbaled camera was insufficient for capturing building facades.
 
@@ -73,7 +73,7 @@ We assessed the horizontal and vertical accuracy of light detection and ranging 
 
 Nesbit, P.R., Durkin, P.R., Hugenholtz, C.H., Hubbard, S.M., & **Kucharczyk, M.** (2018). Geosphere, 14(6), 2469–2486.
 
-<kbd>SenseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd>
+<kbd>senseFly eMotion</kbd> <kbd>Pix4Dmapper Pro</kbd> <kbd>senseFly eBee</kbd>
 
 This study examined the use of drone-based photogrammetry (structure-from-motion) for geologic mapping. We used structure-from-motion to develop a 3D digital outcrop model (DOM) of an Upper Cretaceous channel-belt sequence in Dinosaur Provincial Park (southeastern Alberta, Canada). Using the 3D DOM, we delineated the lower contact of the channel-belt sequence, created digital sedimentary logs, and estimated facies with similar conviction to field-based estimations (±4.9%). Overall, we found that measurements and observations derived from the 3D DOM were commensurate with conventional ground-based mapping techniques, but they had the added advantage of lateral continuity, which aided interpretation of stratigraphic surfaces and facies.
 
@@ -99,7 +99,7 @@ To gain insight into the types of incidents that were occurring with small drone
 
 Hugenholtz, C.H., Brown, O., Walker, J., Barchyn, T.E., Nesbit, P.R., **Kucharczyk, M.**, & Myshak, S. (2016). Geomatica, 70(1), 21-30.
 
-<kbd>Esri ArcMap</kbd> <kbd>Trimble R6 GNSS</kbd> <kbd>SenseFly eMotion</kbd> <kbd>Postflight Terra 3D</kbd>
+<kbd>Esri ArcMap</kbd> <kbd>Trimble R6 GNSS</kbd> <kbd>senseFly eMotion</kbd> <kbd>Postflight Terra 3D</kbd> <kbd>senseFly eBee RTK</kbd>
 
 We compared the spatial accuracy of two nearly identical drones with differing onboard GNSS equipment: one with a survey-grade real-time kinematic (RTK) GNSS receiver (RTK drone), and the other with a lower-grade GPS receiver (non-RTK drone). Spatial accuracy was quantified using 17 horizontal and 180 vertical checkpoints surveyed with RTK GNSS, followed by hypothesis testing. The horizontal and vertical accuracy improved substantially with the RTK drone, effectively reducing the horizontal and vertical root-mean-squared error values by 1 to 2 orders of magnitude compared to the non-RTK drone. Importantly, the horizontal accuracy of the RTK drone data processed via direct georeferencing was equivalent to the horizontal accuracy of the non-RTK drone data processed with ground control points (GCPs), but the vertical error of the RTK drone data was 2 to 3 times greater than the vertical error of the non-RTK drone data with GCPs. Overall, these results suggested that direct georeferencing with the RTK drone can achieve a horizontal accuracy comparable to that obtained with a network of GCPs, but for topographic (vertical) measurements requiring the highest achievable accuracy, researchers and practitioners should use GCPs.
 
@@ -196,7 +196,7 @@ I participated in the 2023 Esri Canada Centres of Excellence App Challenge, whic
 
 ### [Measuring Vegetation Heights](https://maja-kucharczyk.github.io/pdf/msc_thesis.pdf)
 
-<kbd>Esri ArcMap</kbd> <kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd>
+<kbd>Esri ArcMap</kbd> <kbd>Trimble R4 GNSS</kbd> <kbd>Nikon DTM-522 Total Station</kbd> <kbd>CSRS-PPP</kbd> <kbd>Trimble Business Center</kbd> <kbd>Minitab</kbd> <kbd>IBM SPSS Statistics</kbd> <kbd>ENVI</kbd> <kbd>MCC-LIDAR</kbd> <kbd>CloudCompare</kbd> <kbd>senseFly eBee</kbd>
 
 For my MSc thesis, I evaluated the accuracy of drone-based light detection and ranging (drone-lidar) and structure-from-motion photogrammetry (drone-sfm) in six vegetation types: grasses (short and tall), shrubs (short and tall), and trees (deciduous and coniferous). Data processing included point cloud classification and interpolation to produce digital terrain models and digital surface models, followed by raster differencing to calculate digital canopy height models. Accuracy was assessed using ground reference data (i.e., real-time kinematic GNSS, total station, tape measure) and statistical evaluation (i.e., descriptive statistics, hypothesis testing). Results indicated drone-lidar was more accurate in estimating ground elevation in all vegetation types, while vegetation height accuracy was higher for some types with drone-sfm. Drone-lidar consistently sampled sub-canopy tree structure, while drone-sfm only captured tree tops.
 
